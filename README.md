@@ -22,8 +22,17 @@ The project is divided into four interconnected parts:
 The objective is to understand the trade-offs between spectrum utilization, traffic capacity and wireless link reliability.
 
 ---
+## 2. Project Files and Downloads
 
-## 2. Project Objectives
+The complete MATLAB project package and supporting documentation are available under the repository's **Releases** section.
+
+[Download Complete MATLAB Project](../../releases/latest)
+
+The release package includes the project source files, simulation outputs and supporting documentation.
+
+---
+
+## 3. Project Objectives
 
 - Simulate cellular traffic using stochastic call arrival and holding-time models.
 - Implement and compare FCA and DCA channel assignment strategies.
@@ -37,7 +46,7 @@ The objective is to understand the trade-offs between spectrum utilization, traf
 
 ---
 
-## 3. Technologies and Tools
+## 4. Technologies and Tools
 
 | Technology | Purpose |
 |---|---|
@@ -52,7 +61,7 @@ The implementation uses MATLAB Base functions and does not require Communication
 
 ---
 
-## 4. System Configuration
+## 5. System Configuration
 
 The simulation uses the following configuration:
 
@@ -83,7 +92,7 @@ Both strategies are evaluated using the same total channel pool.
 
 ---
 
-## 5. Project Architecture
+## 6. Project Architecture
 
 The project follows a sequential simulation and analysis architecture.
 
@@ -129,7 +138,7 @@ The project follows a sequential simulation and analysis architecture.
 
 ---
 
-## 6. Implementation Details
+## 7. Implementation Details
 
 ### Part A – Traffic Generation and Channel Assignment
 
@@ -252,7 +261,7 @@ These are illustrative engineering assumptions, not prescribed assignment limits
 
 ---
 
-## 7. Simulation Results
+## 8. Simulation Results
 
 The simulation evaluates FCA and DCA at three offered traffic levels: 2, 5 and 8 Erlangs per cell.
 
@@ -298,7 +307,7 @@ The results highlight the importance of considering both traffic capacity and ph
 
 ---
 
-## 8. Running the Project
+## 9. Running the Project
 
 The complete project can be executed using the master MATLAB script.
 
@@ -335,7 +344,7 @@ The generated outputs are saved in their respective output directories.
 
 ---
 
-## 9. Repository Structure
+## 10. Repository Structure
 
 ```text
 WCC_G13_Q13/
@@ -375,7 +384,7 @@ Each output directory contains the corresponding simulation data, CSV summaries,
 
 ---
 
-## 10. Validation and Limitations
+## 11. Validation and Limitations
 
 The final project includes integration checks to verify consistency between the simulation modules.
 
@@ -404,15 +413,6 @@ The simulation results should therefore be interpreted within the configured net
 
 ---
 
-## 11. Project Files and Downloads
-
-The complete MATLAB project package and supporting documentation are available under the repository's **Releases** section.
-
-[Download Complete MATLAB Project](../../releases/latest)
-
-The release package includes the project source files, simulation outputs and supporting documentation.
-
----
 
 ## 12. Conclusion
 
